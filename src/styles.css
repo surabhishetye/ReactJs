@@ -1,0 +1,75 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.AddButton {
+  background-color: blueviolet;
+  color: blanchedalmond;
+  margin-right: 10px;
+}
+
+.ImageGrid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 10px;
+}
+
+.ImageSelf {
+  /* flex-basis: 25%; */
+  width: 50px;
+  border-radius: 10px;
+}
+
+.registration-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.registration-form h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.registration-form div {
+  margin-bottom: 15px;
+}
+
+.registration-form label {
+  display: block;
+  font-weight: bold;
+}
+
+.registration-form input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.registration-form .error {
+  color: red;
+  font-size: 12px;
+  margin-top: 5px;
+}
+
+.registration-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 10px
+}
+
+.registration-form button:hover {
+  background-color: #a04582;
+}
+
